@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Happy 2 Months, Ratnesh</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Cinzel:wght@500;600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Ambient canvas background -->
+<canvas id="bg-canvas"></canvas>
+<div class="aurora"></div>
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<!-- ============ OPENING SEQUENCE ============ -->
+<section id="opening" class="opening">
+  <div class="opening-stars" id="openingStars"></div>
+  <div class="opening-text" id="openingText">
+    <p class="op-line" data-line="0">I never thought one person could become my safest place.</p>
+    <p class="op-line" data-line="1">Happy 2 Months.</p>
+    <p class="op-line op-name" data-line="2">Ratnesh <span class="heart">❤</span></p>
+    <p class="op-line op-signature" data-line="3">Made with all my love,<br>Inaya</p>
+  </div>
+  <button class="begin-btn" id="beginBtn">
+    <span>Begin Our Story</span>
+  </button>
+</section>
+
+<!-- ============ MAIN SITE ============ -->
+<main id="main" class="main">
+
+  <!-- progress rail -->
+  <div class="progress-rail"><div class="progress-fill" id="progressFill"></div></div>
+
+  <!-- ============ HERO ============ -->
+  <section class="section hero" id="hero">
+    <p class="eyebrow reveal">a small archive of us</p>
+    <h1 class="hero-title reveal">Happy 2 Months <span class="glow-heart">❤</span></h1>
+    <p class="hero-sub reveal">Two months.<br>Countless memories.<br>Infinite love.</p>
+    <div class="scroll-cue reveal">
+      <span>Our Story Begins</span>
+      <div class="scroll-line"><i></i></div>
+    </div>
+  </section>
+
+  <!-- ============ TIMELINE ============ -->
+  <section class="section timeline-section" id="timeline">
+    <p class="eyebrow reveal">how it happened</p>
+    <h2 class="section-title reveal">Our Timeline</h2>
+
+    <div class="timeline">
+      <div class="timeline-spine"><div class="timeline-spine-fill" id="spineFill"></div></div>
+
+      <div class="t-item reveal" data-side="left">
+        <div class="t-icon">🎮</div>
+        <div class="t-card"><p>We met in Free Fire.</p></div>
+      </div>
+
+      <div class="t-item reveal" data-side="right">
+        <div class="t-icon">🤍</div>
+        <div class="t-card"><p>We became best friends.</p></div>
+      </div>
+
+      <div class="t-item reveal" data-side="left">
+        <div class="t-icon">🌸</div>
+        <div class="t-card"><p>You slowly became my comfort.</p></div>
+      </div>
+
+      <div class="t-item reveal t-milestone" data-side="right">
+        <div class="t-icon">❤️</div>
+        <div class="t-card">
+          <span class="t-date">8 May 2026</span>
+          <p>The day we became <em>us</em>.</p>
+        </div>
+      </div>
+
+      <div class="t-item reveal t-milestone" data-side="left">
+        <div class="t-icon">🌙</div>
+        <div class="t-card">
+          <span class="t-date">8 July 2026</span>
+          <p>Two months later&hellip; and I'd still choose you.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WHY I LOVE YOU ============ -->
+  <section class="section why-section" id="why">
+    <p class="eyebrow reveal">the small print of loving you</p>
+    <h2 class="section-title reveal">Why I Love You</h2>
+
+    <div class="why-grid">
+      <div class="why-card reveal"><span class="why-label">01</span><p>Your words.</p></div>
+      <div class="why-card reveal"><span class="why-label">02</span><p>Your actions.</p></div>
+      <div class="why-card reveal"><span class="why-label">03</span><p>Your efforts.</p></div>
+      <div class="why-card reveal"><span class="why-label">04</span><p>Your care.</p></div>
+      <div class="why-card reveal"><span class="why-label">05</span><p>Your patience.</p></div>
+      <div class="why-card reveal"><span class="why-label">06</span><p>Your loyalty.</p></div>
+      <div class="why-card reveal"><span class="why-label">07</span><p>Your emotional maturity.</p></div>
+      <div class="why-card reveal"><span class="why-label">08</span><p>Your kindness.</p></div>
+      <div class="why-card reveal"><span class="why-label">09</span><p>Your reassurance.</p></div>
+      <div class="why-card reveal"><span class="why-label">10</span><p>Your smile.</p></div>
+      <div class="why-card reveal"><span class="why-label">11</span><p>The way you make me laugh.</p></div>
+      <div class="why-card reveal"><span class="why-label">12</span><p>The way you protect my heart.</p></div>
+      <div class="why-card reveal"><span class="why-label">13</span><p>Your consistency.</p></div>
+      <div class="why-card reveal"><span class="why-label">14</span><p>The way you always try.</p></div>
+      <div class="why-card reveal why-card-wide"><span class="why-label">15</span><p>Your <span class="hi">"Mai hu na."</span></p></div>
+    </div>
+  </section>
+
+  <!-- ============ MEMORY GALLERY ============ -->
+  <section class="section gallery-section" id="gallery">
+    <p class="eyebrow reveal">a shelf of moments</p>
+    <h2 class="section-title reveal">Memory Gallery</h2>
+
+    <div class="gallery-grid">
+      <div class="polaroid reveal" style="--r:-4deg">
+        <div class="polaroid-face gaming">🎮</div>
+        <span class="polaroid-cap">Gaming Memories</span>
+      </div>
+      <div class="polaroid reveal" style="--r:3deg">
+        <div class="polaroid-face calls">🌙</div>
+        <span class="polaroid-cap">Late Night Calls</span>
+      </div>
+      <div class="polaroid reveal" style="--r:-2deg">
+        <div class="polaroid-face gifts">🎁</div>
+        <span class="polaroid-cap">Gift Memories</span>
+      </div>
+      <div class="polaroid reveal" style="--r:5deg">
+        <div class="polaroid-face laughs">😂</div>
+        <span class="polaroid-cap">Random Laughs</span>
+      </div>
+      <div class="polaroid reveal" style="--r:-5deg">
+        <div class="polaroid-face comfort">🤍</div>
+        <span class="polaroid-cap">Comfort Moments</span>
+      </div>
+      <div class="polaroid reveal" style="--r:2deg">
+        <div class="polaroid-face future">✨</div>
+        <span class="polaroid-cap">Future Dreams</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ NEVER FORGET ============ -->
+  <section class="section forget-section" id="forget">
+    <p class="eyebrow reveal">kept, always</p>
+    <h2 class="section-title reveal">Things I'll Never Forget</h2>
+
+    <div class="quote-stack">
+      <blockquote class="quote-card reveal">I'll never forget the first time you made me smile when I wanted to cry.</blockquote>
+      <blockquote class="quote-card reveal">I'll never forget how safe your words make me feel.</blockquote>
+      <blockquote class="quote-card reveal">I'll never forget every game that became a memory.</blockquote>
+      <blockquote class="quote-card reveal">I'll never forget every little effort.</blockquote>
+      <blockquote class="quote-card reveal">I'll never forget how loved you make me feel.</blockquote>
+    </div>
+  </section>
+
+  <!-- ============ SAFE PLACE CHECKLIST ============ -->
+  <section class="section safe-section" id="safe">
+    <p class="eyebrow reveal">why it feels like home</p>
+    <h2 class="section-title reveal">Reasons You're My Safe Place</h2>
+
+    <ul class="checklist">
+      <li class="reveal"><span class="check">✓</span>You listen.</li>
+      <li class="reveal"><span class="check">✓</span>You care.</li>
+      <li class="reveal"><span class="check">✓</span>You understand.</li>
+      <li class="reveal"><span class="check">✓</span>You stay.</li>
+      <li class="reveal"><span class="check">✓</span>You reassure me.</li>
+      <li class="reveal"><span class="check">✓</span>You choose me.</li>
+      <li class="reveal"><span class="check">✓</span>You never make me feel alone.</li>
+    </ul>
+  </section>
+
+  <!-- ============ LETTER ============ -->
+  <section class="section letter-section" id="letter">
+    <div class="letter-paper reveal">
+      <h2 class="letter-heading">Dear Ratnesh,</h2>
+      <p>
+        I keep trying to find the right way to start this, and I keep landing back on the same truth &mdash;
+        two months ago, a friendship I already loved quietly turned into something I now can't imagine my days without.
+      </p>
+      <p>
+        You didn't come into my life with grand gestures. You came in slowly, patiently, one late night call
+        and one silly game at a time, until one day I looked up and realized you'd become the person I run to
+        first, with the good news and the bad.
+      </p>
+      <p>
+        Thank you for every "mai hu na," for staying even when I made it hard, for turning ordinary Tuesdays
+        into memories I'll keep long after I've forgotten what we even talked about. Thank you for being
+        patient with my heart while it learned to trust yours.
+      </p>
+      <p>
+        I don't know what the next months will look like. I just know I want to find out with you &mdash;
+        one call, one game, one ordinary beautiful day at a time.
+      </p>
+      <p class="letter-sign">Forever your Inaya.</p>
+    </div>
+  </section>
+
+  <!-- ============ LITTLE THINGS ============ -->
+  <section class="section little-section" id="little">
+    <p class="eyebrow reveal">the little things</p>
+    <h2 class="section-title reveal">Little Things I Hold Onto</h2>
+
+    <div class="bubble-field">
+      <span class="bubble reveal">Your voice</span>
+      <span class="bubble reveal">Your laugh</span>
+      <span class="bubble reveal">Your patience</span>
+      <span class="bubble reveal">Your hugs (even if virtual)</span>
+      <span class="bubble reveal">Your good morning texts</span>
+      <span class="bubble reveal">Your random jokes</span>
+      <span class="bubble reveal">Our games</span>
+      <span class="bubble reveal">Our memories</span>
+      <span class="bubble reveal">Your effort</span>
+      <span class="bubble reveal bubble-big">Everything.</span>
+    </div>
+  </section>
+
+  <!-- ============ FUTURE ============ -->
+  <section class="section future-section" id="future">
+    <h2 class="section-title reveal">I don't know what tomorrow holds&hellip;</h2>
+    <p class="future-text reveal">
+      But if life lets me, I'd love to create thousands more memories with you.
+      <br>One day at a time.
+    </p>
+  </section>
+
+  <!-- ============ FINAL ============ -->
+  <section class="section final-section" id="final">
+    <h2 class="final-title reveal">I'd still choose you.</h2>
+    <p class="final-sub reveal">
+      In every universe.<br>
+      Every timeline.<br>
+      Every lifetime.<br>
+      I'd still click <span class="hi">"Accept Friend Request."</span>
+    </p>
+    <p class="final-signoff reveal">Happy 2 Months ❤<br><span class="signature">Love, Inaya</span></p>
+
+    <button class="secret-btn" id="secretBtn">Don't Click</button>
+    <p class="secret-response" id="secretResponse"></p>
+  </section>
+
+  <footer class="site-footer">
+    <p>for Ratnesh &mdash; the safest place I know.</p>
+  </footer>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
